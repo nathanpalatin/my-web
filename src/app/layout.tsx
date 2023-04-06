@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata = {
   title: 'Growfy Digital',
-  description: 'Growfy is boosting people everyday and everytime.',
+  description: 'Growfy is boosting people everyday and every time.',
 }
 
 export default function RootLayout({ children }: { children: ReactNode }) {
