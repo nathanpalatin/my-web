@@ -21,9 +21,16 @@ export default function Home() {
       </div>
 
       <div className={styles.grid}>
-        <a href="#" className={styles.card} rel="noopener noreferrer">
-          <h2 className={inter.className}>Coming soon...</h2>
-          <p className={inter.className}>Boosting people for the world.</p>
+        <a
+          href="https://instagram.com/olagrowfy"
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={inter.className}>
+            Boosting people.<span></span>
+          </h2>
+          <p className={inter.className}>Coming soon...</p>
         </a>
       </div>
     </main>

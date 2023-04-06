@@ -2,8 +2,8 @@ import { ReactNode } from 'react'
 import './globals.css'
 
 export const metadata = {
-  title: 'Growfy App',
-  description: 'Growfy is a simple App for developing',
+  title: 'Growfy Digital',
+  description: 'Growfy is boosting people everyday and everytime.',
 }
 
 export default function RootLayout({ children }: { children: ReactNode }) {
