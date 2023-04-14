@@ -39,9 +39,36 @@
   --card-border-rgb: 131, 134, 135;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
+
   :root {
+    --foreground-rgb: 0, 0, 0;
+    --callout-rgb: 258, 240, 241;
+    --tile-start-rgb: 165, 90, 156;
+    --tile-end-rgb: 41, 41, 140;
+    --tile-border: 
+    conic-gradient(
+    rgb(165, 90, 156),
+    rgb(41, 41, 140),
+  );
+  
+  }
+
+  ::-webkit-input-placeholder {
+    color: black;
     
+    font-weight: 400;
+  }
+
+
+}
+
+@media (prefers-color-scheme: dark) {
+
+  ::-webkit-input-placeholder {
+    color: azure;
+  }
+  :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
@@ -69,6 +96,10 @@
     --callout-border-rgb: 108, 108, 108;
     --card-rgb: 100, 100, 100;
     --card-border-rgb: 200, 200, 200;
+  }
+
+  .btnSubmit{ 
+    color: azure
   }
 }
 

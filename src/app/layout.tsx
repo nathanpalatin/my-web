@@ -1,22 +1,31 @@
-import { Inter } from 'next/font/google'
 import { ReactNode } from 'react'
 import './globals.css'
 
-export const metadata = {
-  title: 'Growfy Digital',
-  description: 'Growfy is boosting people everyday and every time.',
+type Metadata = {
+  authors: string
+  title: string
+  description: string
+  themeColor: string
+  keywords: string
+  viewport: string
+  lang: string
 }
 
-const fontsLoaded = Inter({
-  subsets: ['latin'],
-  weight: ['100', '700'],
-  variable: '--font-inter',
-})
+export const metadata: Metadata = {
+  title: 'Growfy Digital',
+  description: 'Growfy is boosting people everyday and every time.',
+  themeColor: 'dark',
+  authors: 'Nathan Palatin',
+  keywords:
+    'growfy digital, growfy, growfy balneario camboriu, growfy sc, growfy gestora',
+  viewport: 'width=device-width, initial-scale=0',
+  lang: 'pt-BR',
+}
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
-      <body className={fontsLoaded.variable}>{children}</body>
+    <html lang={metadata.lang}>
+      <body>{children}</body>
     </html>
   )
 }

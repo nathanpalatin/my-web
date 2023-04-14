@@ -1,9 +1,17 @@
+import { Inter } from 'next/font/google'
 import Image from 'next/image'
+
 import styles from './page.module.css'
+
+const fontsLoaded = Inter({
+  subsets: ['latin'],
+  weight: ['100', '400', '700'],
+  variable: '--font-inter',
+})
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main className={`${fontsLoaded.variable} ${styles.main}`}>
       <div className={styles.center}>
         <div className={styles.thirteen}>
           <Image
@@ -16,7 +24,14 @@ export default function Home() {
         </div>
       </div>
 
-      <h1 className={styles.text}>Boosting people.</h1>
+      <form className={styles.form}>
+        <input type="text" className={styles.input} placeholder="Login" />
+        <input type="password" className={styles.input} placeholder="Senha" />
+        <button id="loading" className={styles.btnSubmit}>
+          Acessar a conta
+        </button>
+      </form>
+      <h3 className={styles.text}>Boosting people.</h3>
     </main>
   )
 }
