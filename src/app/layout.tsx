@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   authors: 'Nathan Palatin',
   keywords:
     'growfy digital, growfy, growfy balneario camboriu, growfy sc, growfy gestora',
-  viewport: 'width=device-width, initial-scale=0',
+  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
   lang: 'pt-BR',
 }
 
