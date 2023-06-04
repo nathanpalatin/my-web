@@ -12,12 +12,12 @@ type Metadata = {
 }
 
 export const metadata: Metadata = {
-  title: 'Growfy Digital',
-  description: 'Growfy is boosting people everyday and every time.',
+  title: 'Nathan Palatin Developer'
+  description: 'Nathan Palatin is boosting people everyday and every time.',
   themeColor: 'dark',
   authors: 'Nathan Palatin',
   keywords:
-    'growfy digital, growfy, growfy balneario camboriu, growfy sc, growfy gestora',
+    'nathan palatin, nathan balneario camboriu, nathan sc, nathan palatin dev',
   viewport:
     'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no',
   lang: 'pt-BR',
