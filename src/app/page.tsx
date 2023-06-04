@@ -24,13 +24,6 @@ export default function Home() {
         </div>
       </div>
 
-      <form className={styles.form}>
-        <input type="text" className={styles.input} placeholder="Login" />
-        <input type="password" className={styles.input} placeholder="Senha" />
-        <button id="loading" className={styles.btnSubmit}>
-          Acessar a conta
-        </button>
-      </form>
       <h3 className={styles.text}>Boosting people.</h3>
     </main>
   )
