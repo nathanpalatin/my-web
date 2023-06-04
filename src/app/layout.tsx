@@ -12,7 +12,7 @@ type Metadata = {
 }
 
 export const metadata: Metadata = {
-  title: 'Nathan Palatin Developer'
+  title: 'Nathan Palatin Developer',
   description: 'Nathan Palatin is boosting people everyday and every time.',
   themeColor: 'dark',
   authors: 'Nathan Palatin',
