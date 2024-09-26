@@ -9,45 +9,45 @@ initScrollReveal();
 typeWrite(document.querySelector(".typewriter"));
 
 hoverChangeExperience(
+  ".worldscript",
+  `asdasd`,
+  "Senior Software Developer",
+  "World Script",
+  "Janeiro 2023 - Setembro 2024"
+);
+
+hoverChangeExperience(
   ".digitalhouse",
-  `Trabalhei como instrutor conteudista em frontend na
-  Digital House, o trabalho consistia em criar conteúdos para as
-  aulas de especialização frontend. Alguns temas dos conteúdos
-  realizados foram: React, Redux, TypeScript, Testes,
-  GraphQL, Next.js, MUI, React Hook Form e styled-components.`,
+  `Como desenvolvedor sênior em uma empresa de TI, eu estava envolvido no desenvolvimento de uma rede social, onde era responsável por criar tanto o backend quanto o frontend. No backend, focava em construir APIs escaláveis e eficientes, além de gerenciar a lógica de negócios e garantir que a arquitetura do banco de dados suportasse o crescimento da plataforma. No frontend, utilizava React Native para desenvolver o aplicativo, buscando sempre proporcionar uma experiência de usuário fluida e responsiva, tanto em iOS quanto Android. Essa integração entre backend e frontend me permitia entregar soluções completas e otimizadas, aproveitando ao máximo minhas habilidades em ambas as áreas.`,
   "Professor conteudista em Frontend",
-  "Digital House",
-  "Nov 2021 - Nov 2022 (1 ano)"
+  "Intellectus",
+  "Outubro 2022 - Abril 2024"
 );
 
 hoverChangeExperience(
   ".zuplae",
-  `Trabalhei como Social Media e Designer na Zuplae que é um escola
-  de programação, onde teve como foco as criações de conteúdos sobre
-  programação para a comunidade dev através das redes sociais.`,
-  "Social Media e UI Designer",
-  "Zuplae",
-  "Jan 2022 - Abril 2022 (4 meses)"
-);
-
-hoverChangeExperience(
-  ".codigofontetv",
-  `Trabalhei como Social Media e Designer no Código Fonte TV, 
-  onde teve como foco as criações de conteúdos sobre programação 
-  para a comunidade dev através das redes sociais.`,
-  "Social Media e Designer",
-  "Código Fonte TV",
-  "Jun 2021 - Jan 2022 (8 meses)"
+  `No início da minha carreira, mergulhei no emocionante mundo da programação PHP e, ocasionalmente, explorei minha veia criativa como designer. Minha jornada começou com a paixão por codificar e criar soluções web eficientes usando PHP, uma linguagem poderosa. Ao mesmo tempo, desempenhei papéis de design, incorporando elementos visuais e criativos em projetos. Essa experiência multifacetada me permitiu adquirir uma compreensão abrangente do desenvolvimento web e do design, ajudando a moldar minha trajetória profissional. Estou ansioso para continuar aprimorando minhas habilidades e expandindo meu conhecimento nesses campos dinâmicos.No início da minha carreira, mergulhei no emocionante mundo da programação PHP e, ocasionalmente, explorei minha veia criativa como designer. Minha jornada começou com a paixão por codificar e criar soluções web eficientes usando PHP, uma linguagem poderosa. Ao mesmo tempo, desempenhei papéis de design, incorporando elementos visuais e criativos em projetos. Essa experiência multifacetada me permitiu adquirir uma compreensão abrangente do desenvolvimento web e do design, ajudando a moldar minha trajetória profissional. Estou ansioso para continuar aprimorando minhas habilidades e expandindo meu conhecimento nesses campos dinâmicos.
+`,
+  "Social Media e PHP Developer",
+  "Found Creation",
+  "Jan 2022 - Abril 2022 "
 );
 
 hoverChangeExperience(
   ".contweb",
-  `Realizei o estágio na ContWeb, uma empresa de contabilidade. 
-  Onde pela primeira vez tive experiência com o React. Além do
-  desenvolvimento frontend criei os designs da nova plataforma da empresa.`,
+  `Durante meu estágio como desenvolvedor Junior, mergulhei de cabeça no mundo da programação orientada a objetos e na criação de aplicações robustas. Foi uma experiência valiosa em que tive a oportunidade de trabalhar em projetos desafiadores, aprender com mentores experientes e aprimorar minhas habilidades de desenvolvimento. O estágio me proporcionou uma base sólida em PHP e desenvolvimento de software, e estou grato por ter tido a chance de contribuir para projetos significativos. Essa experiência fortaleceu minha paixão pela programação e impulsionou meu desejo contínuo de crescimento e aprendizado na área de tecnologia.
+`,
+  "PHP Developer",
+  "Luxfacta",
+  "Novembro 2015 - Maio 2017"
+);
+
+hoverChangeExperience(
+  ".codigofontetv",
+  `Durante o período em que estava em meio ao processo de obtenção da cidadania italiana, tive a oportunidade de colaborar ativamente no desenvolvimento do meu próprio processo com o meu assessor. Isso me proporcionou uma visão única sobre a burocracia e os procedimentos necessários para alcançar esse objetivo pessoal. Minha participação ativa no processo também me permitiu desenvolver habilidades de organização, pesquisa e comunicação. Foi uma jornada desafiadora, mas extremamente enriquecedora, que demonstra minha dedicação em superar desafios e alcançar metas importantes.`,
   "Developer frontend e UI Designer",
-  "ContWeb",
-  "Set 2021 - Nov 2021 (3 meses)"
+  "Eunait",
+  "Março 2019 - Novembro 2019"
 );
 
 hoverChangeDescription(
